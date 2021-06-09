@@ -1,1 +1,1 @@
-console.log("Testing Webpack watch");
+(()=>{function t(t){console.log(t.target.dataset.target),e.forEach((t=>t.classList.remove("active"))),this.classList.add("active")}console.log("Testing Webpack watch");const e=document.querySelectorAll(".tab");e.forEach((e=>e.addEventListener("click",t)))})();
