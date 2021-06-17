@@ -9,16 +9,23 @@
   --color5: #c3d7e4;
   --color6: #d9eae1;
   --color7: #f0fcdd;
+  
 }
 
-.content {
-  background-color: var(--color7)
+
+#content {
+  background-color: var(--color6);
+  margin-top: 80px;
+  display: block;
+  align-items: center;
+
 }
 
 .navbar {
   position: fixed;
   top: 0;
   width: 100%;
+  min-width: 680px;
   height: 80px;
   background-color: var(--color5);
   
@@ -37,7 +44,7 @@
   font-size: 24px;
   color: var(--color2);
   cursor: pointer;
-  height: 45px;
+  height: 80px;
   padding-right: 20px;
 }
 
@@ -48,11 +55,87 @@
   list-style: none;
   text-align: center;
 }
+.tab-text {
+  padding-top: 5px;
+  margin: 0;
+}
+
 .active {
   background-color: var(--color6);
 }
-h1 {
-  height: 80px;
+.nav-container h1 {
+  padding-left: 20px;
   font-family: Pacifico, serif;
   color: var(--color1);
 }
+
+
+.banner {
+  text-align: center;
+  font-size: 28px;
+  font-family: Pacifico, serif;
+  color: var(--color1);
+  text-decoration: underline;
+  text-decoration-thickness: 10%;
+  padding: 20px 0px 25px 0px;
+  margin: 0;
+}
+.sub-banner p{
+  font-size: 1.3em;
+  font-family: "Sansita", sans-serif;
+  font-style: italic;
+  color: var(--color2);
+  font-weight: 900;
+  text-align: center;
+  margin: 10px 5px;
+}
+
+.info-container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  max-width: 500px;
+  background-color: var(--color5);
+  border-radius: 10px;
+  color: var(--color1);
+  font-weight: bold;
+  font-family: "Sansita", sans-serif;
+}
+
+span {
+  color: var(--color1)
+}
+.address {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 10px 20px 10px 20px;
+}
+.address p, span {
+  margin: 0;
+  padding-right: 10px;
+}
+.hours {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 10px 20px 10px 20px;
+}
+.hours p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+  border-radius: 5%;
+}
+
