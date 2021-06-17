@@ -31,6 +31,7 @@ function render(tab) {
 function init() {
   renderHomePage();
 }
+
 const tabs = document.querySelectorAll('.tab');
 tabs.forEach(tab => tab.addEventListener('click', switchTabs));
 
