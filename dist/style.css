@@ -117,26 +117,30 @@ body {
 }
 
 span {
-  color: var(--color1)
+  color: var(--color1);
+  padding-right: 10px;
 }
 .address {
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin: 0;
   padding: 10px 20px 10px 20px;
 }
 .address p, span {
   margin: 0;
-  padding-right: 10px;
+  
 }
 .hours {
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin: 0;
   padding: 10px 20px 10px 20px;
 }
-.hours p {
+.hours p, span {
   margin: 0;
+  
 }
 
 img {
@@ -158,8 +162,5 @@ footer p, a{
   text-align: center;
   margin: 0;
   padding: 5px;
-  color: var(--color2)
-}
-a {
   color: var(--color2)
 }
