@@ -100,6 +100,41 @@ body {
   margin: 10px 5px;
 }
 
+.menu-container {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-item {
+  background-color: var(--color5);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.menu-text {
+  font-family: "Sansita", sans-serif;
+  font-weight: bold;
+  color: var(--color1);
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.contact-container {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Sansita", sans-serif;
+  font-weight: bold;
+  color: var(--color1);
+  text-align: center;
+  background-color: var(--color5);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
 .info-container {
   margin-left: auto;
   margin-right: auto;
@@ -163,4 +198,11 @@ footer p, a{
   margin: 0;
   padding: 5px;
   color: var(--color2)
+}
+
+.menu-img {
+  padding-top: 20px;
+  border-radius: 10px;
+  max-width: 90%;
+  height: auto;
 }
