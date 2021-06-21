@@ -1,6 +1,6 @@
 import renderHomePage from "./home-module.js"
-import contactTesting from "./contact-module.js"
-import menuTesting from "./menu-module.js"
+import renderContactPage from "./contact-module.js"
+import renderMenuPage from "./menu-module.js"
 
 console.log("Testing Webpack watch");
 
@@ -20,10 +20,10 @@ function render(tab) {
       renderHomePage();
       break;
     case '#menu':
-      menuTesting();
+      renderMenuPage();
       break;
     case '#contact':
-      contactTesting();
+      renderContactPage();
       break;
   } 
   return;
